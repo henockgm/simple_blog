@@ -1,0 +1,114 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:100');
+
+@font-face {
+    font-family: metropolice;
+    src: url(Metropolis_1920.otf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(Lato_Hairline.ttf);
+
+}
+
+body, html {
+-webkit-font-smoothing: antialiased;
+  margin: 0;
+  min-height: 750px;
+}
+
+form {
+  max-width: 600px;
+}
+
+nav.navbar-top, .navbar{
+  height: 100px;
+  background: #000066;
+  padding: 70px 20px;
+  border-radius: none !important;
+}
+
+.navbar-header{
+  font-size: 30px;
+  font-weight: 700;
+   color: #adadff;
+}
+
+.navbar-header:hover {
+   color: #fff;
+}
+
+.make-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 74%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.home-article-block{
+ border: 1px solid #adadff ;
+
+}
+
+.error-disp {
+	color: red;
+}
+
+p.published-on {
+  float: right;
+  color:#bbb;
+  font-family:monospace;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.nav-item {
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	line-height: 70px;
+}
+
+li.nav-item > a {
+	display: block;
+	text-decoration: none;
+  color:#adadff;
+  font-weight: 500;
+}
+
+li.nav-item > a:hover {
+  color:#fff;
+}
+
+.post-title , .post-title:hover{
+  color: green;
+}
+
+.post-title:hover{
+  color: #0066ff;
+}
+
+.read-more {
+  color: #555;
+}
+
+.t-article {
+  display: block;
+  border-top: 1px solid #eee;
+
+}
+
+.t-article:hover {
+   border-color: red;
+}
+
+.t-body{
+  margin-right: 15px;
+}
+
+.post-highlight {
+  display: inline-block;
+}
+
+
